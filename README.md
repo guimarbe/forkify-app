@@ -1,4 +1,10 @@
 <!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/guimarbe/forkify-app">
+    <img src="dist/img/logo.png" alt="Logo" width="459" height="150">
+  </a>
+</p>
 
 <!-- PROJECT NAME -->
 # Forkify APP
@@ -79,7 +85,7 @@ console.log(recipe.ingredients);
 Finally, the last thing is to write the **webpack.config.file** to bundle this two independent files into one:
 
 ```js
-odule.exports = {
+module.exports = {
     entry: ['babel-polyfill', './src/js/index.js'],
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -149,7 +155,7 @@ $ npm install
 ```
 $ npm start
 ```
-5. Or you can simply build the **bundle.js** to run it in production:
+5. Or you can simply build the *bundle.js* to run it in **production server**:
 ```
 $ npm run build
 ```
@@ -167,7 +173,11 @@ Feel free to use this code (see more on [license](#license)).
 >To find recipes, look at [this url](https://forkify-api.herokuapp.com/phrases.html) to know the search queries to type in the search bar.
 
 ## Built with
-This project is plugin free. You don't need nothing to run it!
+This project was built with:
+* **Webpack**
+* **Babel**
+* **Axios**
+* and more!
 
 <!-- CONTRIBUTING -->
 ## Contributing
